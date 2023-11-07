@@ -7,6 +7,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
     <title>EcoStep</title>
 </head>
 <body>
@@ -44,7 +51,7 @@
 
       
       <!--CAROUSEL-->
-      <div id="carouselExampleIndicators" class="carousel slide" style="margin-bottom: 50px;">
+      <div id="carouselExampleIndicators" class="carousel slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -70,10 +77,9 @@
     <span class="visually-hidden">Siguiente</span>
   </button>
 </div>
-      
 
 <!-- QUIENES SOMOS -->
-<div class="container" style="margin-bottom: 50px;" id="nosotros">
+<div class="container" id="nosotros" id="nosotros">
     <div class="row">
         <div class="col-md-6">
             <img src="https://placehold.co/600x400/png" class="img-fluid" alt="Image">
@@ -94,40 +100,8 @@
 
 <!-- NUESTROS PRODUCTOS -->
 <h1 style="text-align: center;" id="productos">Nuestros Productos</h1>
-<div class="container mt-5">
-  <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-          <!-- Product Item 1 -->
-          <div class="carousel-item active" style="height: 650px; width: auto;">
-              <img src="img/Producto_1.png" class="d-block w-100" alt="Product 1" style="height: min-content;">
-              <div class="carousel-caption">
-                  <h3 style="color: black;">Producto 1</h3>
-                  <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-          </div>
-          
-          <!-- Product Item 2 -->
-          <div class="carousel-item" style="height: 650px; width: auto;">
-              <img src="img/Producto_2.png" class="d-block w-100" alt="Product 2" style="height: min-content;">
-              <div class="carousel-caption">
-                  <h3 style="color: black;">Producto 2</h3>
-                  <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-          </div>
 
-          <!-- Add more product items here -->
 
-      </div>
-      <a class="carousel-control-prev" href="#productCarousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#productCarousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-      </a>
-  </div>
-</div>
 
   <!-- FOOTER -->
   <footer class="text-black pt-5 pb-4">
