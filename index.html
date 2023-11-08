@@ -7,23 +7,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" />
+    <link rel = "stylesheet" href = "css/owl.carousel.css">
+    <link rel = "stylesheet" href = "css/owl.theme.default.css">
     <title>EcoStep</title>
 </head>
+
+
 <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-        <div class="container-fluid">
-            <img class="navbar-brand" src="img/header_logo.png" alt="" style="height:75px; width: auto;">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container-fluid">
+          <img class="navbar-brand" src="img/header_logo.png" alt="" style="height:75px; width: auto;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
+        </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -45,38 +42,39 @@
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
             </form>
+            <img src="img/Carrito.png" alt="" id="carrito">
           </div>
         </div>
       </nav>
 
       
-      <!--CAROUSEL-->
-      <div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <!--CAROUSEL-->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/Banner_1.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Banner_2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Banner_3.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/Banner_1.webp" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/Banner_2.webp" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/Banner_3.webp" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Anterior</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Siguiente</span>
-  </button>
-</div>
 
 <!-- QUIENES SOMOS -->
 <div class="container" id="nosotros">
@@ -100,7 +98,377 @@
 
 <!-- NUESTROS PRODUCTOS -->
 <h1 style="text-align: center;" id="productos">Nuestros Productos</h1>
+<div class = "container">
+  <div class = "row g-4 my-5 mx-auto owl-carousel owl-theme">
+      <div class = "col product-item mx-auto">
+        <!-- PRODUCTO 1-->
+          <div class = "product-img">
+              <img src = "img/Producto_1.png" alt = "" class = "img-fluid d-block mx-auto">
+              <span class = "heart-icon">
+                  <i class = "far fa-heart"></i>
+              </span>
+              <div class = "row btns w-100 mx-auto text-center">
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-cart-plus"></i> Añadir al carrito
+                  </button>
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-binoculars"></i> Visualizar
+                  </button>
+              </div>
+          </div>
 
+          <div class = "product-info p-3">
+              <a href = "#" class = "d-block text-dark text-decoration-none py-2 product-name">Producto</a>
+              <span class = "product-price">$ 100.50</span>
+              <div class = "rating d-flex mt-1">
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>(45 calificaciones)</span>
+              </div>
+          </div>
+      </div>
+      <!-- PRODUCTO 2-->
+      <div class = "col product-item mx-auto">
+          <div class = "product-img">
+              <img src = "img/Producto_2.png" alt = "" class = "img-fluid d-block mx-auto">
+              <span class = "heart-icon">
+                  <i class = "far fa-heart"></i>
+              </span>
+              <div class = "row btns w-100 mx-auto text-center">
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-cart-plus"></i> Añadir al carrito
+                  </button>
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-binoculars"></i> Visualizar
+                  </button>
+              </div>
+          </div>
+
+          <div class = "product-info p-3">
+              <a href = "#" class = "d-block text-dark text-decoration-none py-2 product-name">Producto</a>
+              <span class = "product-price">$ 100.50</span>
+              <div class = "rating d-flex mt-1">
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>(45 calificaciones)</span>
+              </div>
+          </div>
+      </div>
+
+      <!-- PRODUCTO 3-->
+      <div class = "col product-item mx-auto">
+          <div class = "product-img">
+              <img src = "img/Producto_3.jpg" alt = "" class = "img-fluid d-block mx-auto">
+              <span class = "heart-icon">
+                  <i class = "far fa-heart"></i>
+              </span>
+              <div class = "row btns w-100 mx-auto text-center">
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-cart-plus"></i> Añadir al carrito
+                  </button>
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-binoculars"></i> Visualizar
+                  </button>
+              </div>
+          </div>
+
+          <div class = "product-info p-3">    
+              <a href = "#" class = "d-block text-dark text-decoration-none py-2 product-name">Producto</a>
+              <span class = "product-price">$ 100.50</span>
+              <div class = "rating d-flex mt-1">
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>(45 calificaciones)</span>
+              </div>
+          </div>
+      </div>
+
+      <!-- PRODUCTO 4-->
+      <div class = "col product-item mx-auto">
+          <div class = "product-img">
+              <img src = "img/Producto_4.jpg" alt = "" class = "img-fluid d-block mx-auto">
+              <span class = "heart-icon">
+                  <i class = "far fa-heart"></i>
+              </span>
+              <div class = "row btns w-100 mx-auto text-center">
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-cart-plus"></i> Añadir al carrito
+                  </button>
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-binoculars"></i> Visualizar
+                  </button>
+              </div>
+          </div>
+
+          <div class = "product-info p-3">
+              <a href = "#" class = "d-block text-dark text-decoration-none py-2 product-name">Producto</a>
+              <span class = "product-price">$ 100.50</span>
+              <div class = "rating d-flex mt-1">
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>(45 calificaciones)</span>
+              </div>
+          </div>
+      </div>
+
+      <!-- PRODUCTO 5-->
+      <div class = "col product-item mx-auto">
+          <div class = "product-img">
+              <img src = "images/product-5.jpg" alt = "" class = "img-fluid d-block mx-auto">
+              <span class = "heart-icon">
+                  <i class = "far fa-heart"></i>
+              </span>
+              <div class = "row btns w-100 mx-auto text-center">
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-cart-plus"></i> Añadir al carrito
+                  </button>
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-binoculars"></i> Visualizar
+                  </button>
+              </div>
+          </div>
+
+          <div class = "product-info p-3">
+              <a href = "#" class = "d-block text-dark text-decoration-none py-2 product-name">Producto</a>
+              <span class = "product-price">$ 100.50</span>
+              <div class = "rating d-flex mt-1">
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>(45 calificaciones)</span>
+              </div>
+          </div>
+      </div>
+
+      <!-- PRODUCTO 6-->
+      <div class = "col product-item mx-auto">
+          <div class = "product-img">
+              <img src = "images/product-6.jpg" alt = "" class = "img-fluid d-block mx-auto">
+              <span class = "heart-icon">
+                  <i class = "far fa-heart"></i>
+              </span>
+              <div class = "row btns w-100 mx-auto text-center">
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-cart-plus"></i> Añadir al carrito
+                  </button>
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-binoculars"></i> Visualizar
+                  </button>
+              </div>
+          </div>
+
+          <div class = "product-info p-3">
+              <a href = "#" class = "d-block text-dark text-decoration-none py-2 product-name">Producto</a>
+              <span class = "product-price">$ 100.50</span>
+              <div class = "rating d-flex mt-1">
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>(45 calificaciones)</span>
+              </div>
+          </div>
+      </div>
+
+      <!-- PRODUCTO 7-->
+      <div class = "col product-item mx-auto">
+          <div class = "product-img">
+              <img src = "images/product-7.jpg" alt = "" class = "img-fluid d-block mx-auto">
+              <span class = "heart-icon">
+                  <i class = "far fa-heart"></i>
+              </span>
+              <div class = "row btns w-100 mx-auto text-center">
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-cart-plus"></i> Añadir al carrito
+                  </button>
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-binoculars"></i> Visualizar
+                  </button>
+              </div>
+          </div>
+
+          <div class = "product-info p-3">
+              <a href = "#" class = "d-block text-dark text-decoration-none py-2 product-name">Producto</a>
+              <span class = "product-price">$ 100.50</span>
+              <div class = "rating d-flex mt-1">
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>(45 calificaciones)</span>
+              </div>
+          </div>
+      </div>
+
+      <!-- PRODUCTO 8-->
+      <div class = "col product-item mx-auto">
+          <div class = "product-img">
+              <img src = "images/product-8.jpg" alt = "" class = "img-fluid d-block mx-auto">
+              <span class = "heart-icon">
+                  <i class = "far fa-heart"></i>
+              </span>
+              <div class = "row btns w-100 mx-auto text-center">
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-cart-plus"></i> Añadir al carrito
+                  </button>
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-binoculars"></i> Visualizar
+                  </button>
+              </div>
+          </div>
+
+          <div class = "product-info p-3">
+              <a href = "#" class = "d-block text-dark text-decoration-none py-2 product-name">Producto</a>
+              <span class = "product-price">$ 100.50</span>
+              <div class = "rating d-flex mt-1">
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>(45 calificaciones)</span>
+              </div>
+          </div>
+      </div>
+
+      <!-- PRODUCTO 9-->
+      <div class = "col product-item mx-auto">
+          <div class = "product-img">
+              <img src = "images/product-9.jpg" alt = "" class = "img-fluid d-block mx-auto">
+              <span class = "heart-icon">
+                  <i class = "far fa-heart"></i>
+              </span>
+              <div class = "row btns w-100 mx-auto text-center">
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-cart-plus"></i> Añadir al carrito
+                  </button>
+                  <button type = "button" class = "col-6 py-2">
+                      <i class = "fa fa-binoculars"></i> Visualizar
+                  </button>
+              </div>
+          </div>
+
+          <div class = "product-info p-3">
+              <a href = "#" class = "d-block text-dark text-decoration-none py-2 product-name">Producto</a>
+              <span class = "product-price">$ 100.50</span>
+              <div class = "rating d-flex mt-1">
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star"></i>
+                  </span>
+                  <span>(45 calificaciones)</span>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 
 
   <!-- FOOTER -->
@@ -111,19 +479,19 @@
           <h5 class="mb-4 font-weight-bold text-primary">Preguntas Frecuentes</h5>
           <hr class="mb-4">
           <p>
-            <a href="#" class="text-dark">Misión</a>
+            <a href="faq.html" class="text-dark">Misión</a>
           </p>
           <p>
-            <a href="#" class="text-dark">Visión</a>
+            <a href="faq.html" class="text-dark">Visión</a>
           </p>
           <p>
-            <a href="#" class="text-dark">¿Cómo trabajamos?</a>
+            <a href="faq.html" class="text-dark">¿Cómo trabajamos?</a>
           </p>
           <p>
-            <a href="#" class="text-dark">Nuestro Objetivo</a>
+            <a href="faq.html" class="text-dark">Nuestro Objetivo</a>
           </p>
           <p>
-            <a href="#" class="text-dark">¿Descuentos en nuestra tienda?</a>
+            <a href="faq.html" class="text-dark">¿Descuentos en nuestra tienda?</a>
           </p>
         </div>
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
@@ -169,5 +537,8 @@
       </div>
     </div>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src = "js/owl.carousel.js"></script>
+  <script src = "js/owl.main.js"></script>
 </body>
 </html>
