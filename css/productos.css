@@ -31,13 +31,6 @@ body{
     bottom: 0;
 }
 
-.heart-icon{
-    position: absolute;
-    top: 16px;
-    right: 15px;
-    font-size: 18px;
-}
-
 .product-type{
     font-size: 13px;
     opacity: 0.8;
@@ -57,3 +50,9 @@ body{
 .product-item{
     width: 300px;
 }
+
+@media screen and (max-width: 1000px){
+    .btns{
+        position:static;
+    }
+    }
