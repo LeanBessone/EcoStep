@@ -36,8 +36,11 @@
     margin-top: 5mm;
 }
 #nosotros{
-    padding-top: 50px;
+    padding-top: 90px;
     margin-bottom: 50px;
+}
+#productos{
+    padding-top: 90px;
 }
 .eslogan{
     border-radius: 14px;
