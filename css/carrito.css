@@ -1,0 +1,93 @@
+#icono_carrito{
+    width: 50px;
+    cursor: pointer;
+}
+.contenedor{
+    margin-left: 50mm; 
+    margin-right: 50mm;
+    margin-top: 5mm;
+}
+#contenedorCarrito{
+    overflow-x: auto;
+}
+#contenedorCarrito table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout:fixed;
+}
+#contenedorCarrito table thead{
+    font-weight: 700;
+}
+#contenedorCarrito table thead td{
+    background-color: #fd8c66;
+    color: #fff;
+    border: none;
+    padding: 6px 0;
+}
+#contenedorCarrito table td{
+    border: 1px solid #b6b3b3;
+    text-align: center;
+}
+#contenedorCarrito table td:nth-child(1){
+    width: 100px;
+}
+#contenedorCarrito table td:nth-child(2){
+    width: 200px;
+}
+#contenedorCarrito table td:nth-child(3){
+    width: 200px;
+}
+#contenedorCarrito table td:nth-child(4),
+#contenedorCarrito table td:nth-child(5),
+#contenedorCarrito table td:nth-child(6){
+    width: 170px;
+}
+#contenedorCarrito table tbody img{
+    width: auto;
+    height: 100px;
+    object-fit: contain;
+}
+#contenedorCarrito table tbody i{
+    color: #b6b3b3;
+}
+#fondoCarrito .cupon>div,
+#fondoCarrito .total>div{
+    border: 1px solid #b6b3b3;
+}
+#fondoCarrito .cupon h5,
+#fondoCarrito .total h5{
+    background-color: #fd8c66;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    font-weight: 700;
+}
+#fondoCarrito .cupon p,
+#fondoCarrito .cupon input{
+    padding: 0 12px;
+}
+#fondoCarrito .cupon input{
+    height: 44px;
+}
+#fondoCarrito .cupon input{
+    margin: 0 0 20px 12px;
+}
+#fondoCarrito .total div>div{
+    padding: 0 12px;
+}
+#fondoCarrito .total h6{
+    color: #2a2a2a;
+}
+.separador{
+    background: #b6b3b3;
+    width: 100%;
+    height: 1px;
+}
+#fondoCarrito .total div>button{
+    margin: 0 12px 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.Secciontotal{
+    margin-bottom: 50px;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/725bca3de6.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/carrito.css">
+    <title>EcoStep</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container-fluid">
+          <img class="navbar-brand" src="img/header_logo.png" alt="" style="height:75px; width: auto;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html#nosotros">Sobre nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html#productos">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="newsletter.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="faq.html">Preguntas frecuentes</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+            </form>
+            <div>
+                <a href="carrito.html" ><img  style="height: 50px; width: auto;" src="img/Carrito.png" alt="" id="icono_carrito"></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <h1 class="faq-titulo">Lista de productos</h1>
+      <section id="contenedorCarrito" class="contenedor my-5">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remover</td>
+                    <td>Imagen</td>
+                    <td>Producto</td>
+                    <td>Precio</td>
+                    <td>Cantidad</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="producto">
+                    <td>
+                        <a href="#" id="eliminar"><i class="fas fa-trash-alt"></i></a>
+                        <td><img src="img/Producto_1.png" alt=""></td>
+                        <td><h5>Nombre Producto</h5></td>
+                        <td><h5>ARS <span id="precio">10000</span></h5></td>
+                        <td><input class="w-25 pl-1" id="cantProducto" value="0" type="number"></td>
+                        <td><h5 id="total">$100</h5></td>
+                    </td>
+                </tr>
+              <tr class="producto">
+                <td >
+                    <a href="#" id="eliminar"><i class="fas fa-trash-alt"></i></a>
+                    <td><img src="img/Producto_2.png" alt=""></td>
+                    <td><h5>Nombre Producto</h5></td>
+                    <td><h5>ARS <span id="precio">15000</span></h5></td>
+                    <td><input class="w-25 pl-1" id="cantProducto" value="0" type="number"></td>
+                    <td><h5 id="total">$100</h5></td>
+                </td>
+            </tr>
+          <tr class="producto">
+            <td>
+                <a href="#" id="eliminar"><i class="fas fa-trash-alt"></i></a>
+                <td><img src="img/Producto_3.jpg" alt=""></td>
+                <td><h5>Nombre Producto</h5></td>
+                <td><h5>ARS <span id="precio">13500</span></h5></td>
+                <td><input class="w-25 pl-1" id="cantProducto" value="0" type="number"></td>
+                <td><h5 id="total">$100</h5></td>
+            </td>
+        </tr>
+        <tr class="producto">
+          <td>
+              <a href="#" id="eliminar"><i class="fas fa-trash-alt"></i></a>
+              <td><img src="img/Producto_4.jpg" alt=""></td>
+              <td><h5>Nombre Producto</h5></td>
+              <td><h5>ARS <span id="precio">15000</span></h5></td>
+              <td><input class="w-25 pl-1" id="cantProducto" value="0" type="number"></td>
+              <td><h5 id="total">$100</h5></td>
+          </td>
+      </tr>
+      <tr class="producto">
+        <td>
+            <a href="#" id="eliminar"><i class="fas fa-trash-alt"></i></a>
+            <td><img src="img/Producto_5.jpg" alt=""></td>
+            <td><h5>Nombre Producto</h5></td>
+            <td><h5>ARS <span id="precio">14400</span></h5></td>
+            <td><input class="w-25 pl-1" id="cantProducto" value="0" type="number"></td>
+            <td><h5 id="total">$100</h5></td>
+        </td>
+    </tr>
+            </tbody>
+        </table>
+      </section>
+      <section id="fondoCarrito" class="contenedor">
+        <div class="row">
+            <div class="cupon col-lg-6 col-md-6 col-12 mb-4">
+                <div>
+                    <h5>DESCUENTO</h5>
+                    <p>Introducir el codigo de descuento, si es poseedor de uno.</p>
+                    <input type="text" placeholder="CODIGO" id="codigoDescuento">
+                    <button id="aplicarDescuento">Aplicar descuento</button>
+                </div>
+            </div>
+            <div class="total col-lg-6 col-md-6 col-12">
+                <div class="Secciontotal">
+                    <h5>PRECIO TOTAL</h5>
+                    <div class="d-flex justify-content-between">
+                        <h6>Subtotal</h6>
+                        <p id="subtotal">$215.00</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h6>Envio</h6>
+                        <p id="envio">$215.00</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <h6>Descuento</h6>
+                      <p id="descuento">$0.00</p>
+                  </div>
+                    <hr class="separador">
+                    <div class="d-flex justify-content-between">
+                        <h6>Total</h6>
+                        <p id="precioFinal">$215.00</p>
+                    </div>
+                    <button class="mx-lg-auto">IR A PAGAR</button>
+                </div>
+            </div>
+        </div>
+      </section>
+      <script src="js/carrito.js"></script>
+
+      <!-- FOOTER -->
+  <footer class="bg-light text-dark pt-0 pb-0">
+    <div class="container text-center pt-5">
+      <div class="row text-center text-md-start">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="mb-4 font-weight-bold text-primary">Preguntas Frecuentes</h5>
+          <hr class="mb-4">
+          <p>
+            <a href="faq.html" class="text-dark">Misión</a>
+          </p>
+          <p>
+            <a href="faq.html" class="text-dark">Visión</a>
+          </p>
+          <p>
+            <a href="faq.html" class="text-dark">¿Cómo trabajamos?</a>
+          </p>
+          <p>
+            <a href="faq.html" class="text-dark">Nuestro Objetivo</a>
+          </p>
+          <p>
+            <a href="faq.html" class="text-dark">¿Descuentos en nuestra tienda?</a>
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="mb-4 font-weight-bold text-primary">Medios de pago</h5>
+          <hr class="mb-4">
+          <p>
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/visa.png" alt="visa"/>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/mastercard.png" alt="mastercard"/>
+          </p>
+          <p>
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/paypal.png" alt="paypal"/>
+            <img width="48" height="48" src="https://img.icons8.com/color/48/mercado-pago.png" alt="mercado-pago"/>
+          </p>
+          <p>
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/bank-card-back-side--v1.png" alt="bank-card-back-side--v1"/>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="mb-4 font-weight-bold text-primary">Sobre Nosotros</h5>
+          <hr class="mb-4">
+          <p class="eslogan">EcoStep,<br>moda<br> sostenible <br> para tus pies!</p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
+          <h5 class="mb-4 font-weight-bold text-primary">Seguinos</h5>
+          <hr class="mb-4">
+          <img width="50" height="50" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram-new--v1"/>
+          <img width="50" height="50" src="https://img.icons8.com/ios/50/facebook-new.png" alt="facebook-new"/>
+          <img width="50" height="50" src="https://img.icons8.com/ios/50/twitterx--v2.png" alt="twitterx--v2"/>
+          <img width="50" height="50" src="https://img.icons8.com/ios/50/pinterest--v1.png" alt="pinterest--v1"/>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="mb-4 font-weight-bold text-primary">Certificado</h5>
+          <hr class="mb-4">
+          <img width="50" height="50" src="https://img.icons8.com/ios/50/circled-b.png" alt="circled-b"/>
+        </div>
+        <hr class="mb-4">
+        <div class="text-center mb-2">
+          <p>
+            Copyright - Todos los derechos reservados<br>
+            <img src="img/UADE.webp" alt="" style="width: 150px; height: auto;">
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

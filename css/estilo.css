@@ -1,3 +1,4 @@
+
 .carousel-inner {
     height: 0;
     padding-bottom: 25%;
@@ -50,10 +51,6 @@
     height: auto;
 }
 
-#carrito{
-    width: 30px;
-    cursor: pointer;
-}
 
 @media screen and (max-width: 1000px){
 .carousel-inner {
@@ -71,7 +68,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-#carrito{
+#icono_carrito{
     margin-top: 10px;
     margin-left: 10px;
     width: 40px;

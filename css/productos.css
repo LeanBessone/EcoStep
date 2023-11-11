@@ -18,6 +18,10 @@ body{
     font-weight: 300;
     transition: all 0.3s ease-in-out;
 }
+button > a{
+    text-decoration: none;
+    color: white;
+}
 .btns button{
     border: none;
     background-color: rgb(39, 39, 39);
@@ -30,7 +34,11 @@ body{
 .product-img:hover .btns{
     bottom: 0;
 }
-
+.product-img > img{
+    width: auto;
+    height: 200px;
+    object-fit: contain;
+}
 .product-type{
     font-size: 13px;
     opacity: 0.8;
