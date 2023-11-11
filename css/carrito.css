@@ -97,6 +97,11 @@
 .Secciontotal{
     margin-bottom: 50px;
 }
+.fa-plus,
+.fa-minus{
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 1000px){
     .contenedor{

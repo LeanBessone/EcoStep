@@ -99,4 +99,33 @@
             // Vuelve a calcular el total
             calcularTotal();
         }
+
+        var incrementarBotones = document.querySelectorAll(".fa-plus");
+            incrementarBotones.forEach(function (boton) {
+                boton.addEventListener("click", function () {
+                    incrementarCantidad(boton);
+                });
+            });
+
+            var decrementarBotones = document.querySelectorAll(".fa-minus");
+            decrementarBotones.forEach(function (boton) {
+                boton.addEventListener("click", function () {
+                    decrementarCantidad(boton);
+                });
+            });
+            function incrementarCantidad(boton) {
+                var filaProducto = boton.closest('.producto');
+                var cantidadInput = filaProducto.querySelector('#cantProducto');
+                cantidadInput.value = parseInt(cantidadInput.value, 10) + 1;
+                calcularTotal();
+            }
+
+            function decrementarCantidad(boton) {
+                var filaProducto = boton.closest('.producto');
+                var cantidadInput = filaProducto.querySelector('#cantProducto');
+                if (parseInt(cantidadInput.value, 10) > 0) {
+                    cantidadInput.value = parseInt(cantidadInput.value, 10) - 1;
+                    calcularTotal();
+                }
+            }
     });
