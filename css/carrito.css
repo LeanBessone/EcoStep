@@ -68,10 +68,16 @@
 }
 #fondoCarrito .cupon input{
     height: 44px;
+    width: 95%;
 }
 #fondoCarrito .cupon input{
     margin: 0 0 20px 12px;
 }
+#fondoCarrito .cupon div>button{
+    display: flex;
+    margin: 0 12px 20px 0; 
+}
+
 #fondoCarrito .total div>div{
     padding: 0 12px;
 }
@@ -90,4 +96,18 @@
 }
 .Secciontotal{
     margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1000px){
+    .contenedor{
+        margin-left: 5mm; 
+        margin-right: 5mm;
+        margin-top: 5mm;
+    }
+    #fondoCarrito .total div>button{
+        display: unset;
+    }
+    #fondoCarrito .cupon div>button{
+        display: unset;
+    }
 }
