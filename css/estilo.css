@@ -56,6 +56,10 @@
     width: 150px;
     height: auto;
 }
+.newsletter{
+    height: 600px; 
+    width: auto;
+}
 
 
 @media screen and (max-width: 1000px){
@@ -84,4 +88,7 @@
     aspect-ratio: 16/9;
     width: 90%;
 }
+.newsletter{
+    display: none;
+}  
 }
