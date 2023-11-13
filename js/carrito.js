@@ -128,4 +128,12 @@
                     calcularTotal();
                 }
             }
+
+            // Agrega un evento al botón "ir a pagar"
+        var botonDescuento = document.querySelector("#botonPagar");
+        botonDescuento.addEventListener("click", function () {
+            alert("Gracias por su compra 🌍❤️");
+            location.reload();
+        });
+
     });

@@ -10,7 +10,7 @@ body{
     position: relative;
     overflow: hidden;
 }
-.btns{
+.btn{
     position: absolute;
     left: 0;
     bottom: -100%;
@@ -22,16 +22,16 @@ button > a{
     text-decoration: none;
     color: white;
 }
-.btns button{
+.btn button{
     border: none;
     background-color: rgb(39, 39, 39);
     color: #fff;
     transition: all 0.3s ease-in-out;
 }
-.btns button:hover{
+.btn button:hover{
     color: #fcb941;
 }
-.product-img:hover .btns{
+.product-img:hover .btn{
     bottom: 0;
 }
 .product-img > img{
@@ -60,7 +60,7 @@ button > a{
 }
 
 @media screen and (max-width: 1000px){
-    .btns{
+    .btn{
         position:static;
     }
     }
