@@ -1,4 +1,7 @@
-
+.youtube{
+    aspect-ratio: 16/9;
+    width: 50%;
+}
 .carousel-inner {
     height: 0;
     padding-bottom: 25%;
@@ -76,5 +79,9 @@
     margin-left: 10px;
     width: 40px;
     cursor: pointer;
+}
+.youtube{
+    aspect-ratio: 16/9;
+    width: 90%;
 }
 }
